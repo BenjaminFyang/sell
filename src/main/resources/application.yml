@@ -1,0 +1,42 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1/test?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host:192.168.30.113
+    port:6379
+
+server:
+  context-path: /sell
+
+logging:
+  pattern:
+    console: "%d - %msg%n"
+  path: /var/log/tomcat/
+  file: /var/log/tomcat/sell.log
+  level: debug
+
+wechat:
+  mpAppId: wxd898fcb01713c658
+  mpAppSecret: 29d8a650db31472aa87800e3b0d739f2
+  openAppId: wxfsdafdsafvdv
+  openAppSecret: dasfdsfdsrgrfertertre
+  mchId: 1409146202
+  mchKey: c976503d34ca432c601361f969fd8d85
+  keyPath: /var/weixin-cert/h5.p12
+  notifyUrl: http://sell.natapp4.cc/sell/pay/notify
+
+projectUrl:
+  wechatMpAuthorize: http://sell.natapp4.cc
+  wechatOpenAuthorized: http://sell.natapp4.cc
+  sell: http://sell.natapp4.cc
+
+mybatis:
+  config-location: classpath:mapper/*.xml
+
