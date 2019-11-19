@@ -59,6 +59,7 @@ public class SellUserController {
             //登陆失败将跳转到列表页
             map.put("url", "/sell/seller/order/list");
             return new ModelAndView("common/error");
+
         }
 
         //2.设置token至redis
