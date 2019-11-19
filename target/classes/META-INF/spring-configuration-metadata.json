@@ -1,0 +1,149 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.imooc.config.ProjectUrlConfig",
+      "name": "projectUrl",
+      "type": "com.imooc.config.ProjectUrlConfig"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat",
+      "type": "com.imooc.config.WechatAccountConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.imooc.config.ProjectUrlConfig",
+      "name": "projectUrl.sell",
+      "description": "点餐系统url.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.ProjectUrlConfig",
+      "name": "projectUrl.sell",
+      "description": "点餐系统url.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.ProjectUrlConfig",
+      "name": "projectUrl.wechat-mp-authorize",
+      "description": "微信公众账号授权url.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.ProjectUrlConfig",
+      "name": "projectUrl.wechat-mp-authorize",
+      "description": "微信公众账号授权url.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.ProjectUrlConfig",
+      "name": "projectUrl.wechat-open-authorized",
+      "description": "微信开发平台授权url.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.ProjectUrlConfig",
+      "name": "projectUrl.wechat-open-authorized",
+      "description": "微信开发平台授权url.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.key-path",
+      "description": "商户证书路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.key-path",
+      "description": "商户证书路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.mch-id",
+      "description": "商户号",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.mch-id",
+      "description": "商户号",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.mch-key",
+      "description": "商户密钥",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.mch-key",
+      "description": "商户密钥",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.mp-app-id",
+      "description": "公众平台的id.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.mp-app-id",
+      "description": "公众平台的id.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.mp-app-secret",
+      "description": "公众平台密钥.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.mp-app-secret",
+      "description": "公众平台密钥.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.notify-url",
+      "description": "微信支付异步通知地址",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.notify-url",
+      "description": "微信支付异步通知地址",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.open-app-id",
+      "description": "开发平台id.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.open-app-id",
+      "description": "开发平台id.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.open-app-secret",
+      "description": "开放平台密钥.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.config.WechatAccountConfig",
+      "name": "wechat.open-app-secret",
+      "description": "开放平台密钥.",
+      "type": "java.lang.String"
+    }
+  ]
+}
